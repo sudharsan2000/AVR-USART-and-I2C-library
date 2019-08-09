@@ -1,15 +1,9 @@
 /*
-        EMBEDDED SYSTEMS task2
 Author Name : Sudharsan S
-Domain: Embedded and Electronics
-Sub-Domain: EMBEDDED SYSTEMS
 Functions: add_time(), BCDtodecimal(),decimaltoBCD(),calculate_time_difference(),i2c_init(),
 i2c_read(), i2c_send_address_read(), i2c_send_address_write(),i2c_send_addressordata(),i2c_start(),
 i2c_stop(),iszero(),read(),RTC_read(),RTC_write(),usart_init(),usart_print(),write()
 Global Variables: current,new_
-
-This headerfile is used to initialize I2C communication between Arduino Uno and DS1307 and 
-use USART at 9600 baud rate.
  */
 #define RTC_address_read 0b11010001 // Read and write address of the RTC module to be sent through I2C
 
