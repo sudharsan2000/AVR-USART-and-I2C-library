@@ -1,5 +1,6 @@
 # AVR-USART-and-I2C-library
 This library is used for implementing I2C and USART in AVR microcontrollers
+Tested with AVR328P
 Author Name : Sudharsan S
 
 Functions: add_time(), BCDtodecimal(),decimaltoBCD(),calculate_time_difference(),i2c_init(),
